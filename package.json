@@ -9,7 +9,6 @@
                    },
    "bin"         : { "tis" : "./bin/app.js" },
    "main"        : "./bin/app.js",
-   "version"     : "0.3.0",
+   "version"     : "0.3.5",
    "engines"     : { "node": ">=0.6.0" }
 }
-

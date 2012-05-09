@@ -2,13 +2,14 @@
   "name"         : "tis",
   "description"  : "A helper - for inline JavaScript Templates.",
   "author"       : "Autarc <autarc@gmail.com> (http://fairyco.de)",
-  "keywords"     : [ "templates", "inline" ],
+  "keywords"     : [ "templates", "inline", "command line" ],
   "repository"   : {
                      "type" : "git",
-                     "url" : "https://github.com/Autarc/tis.git"
+                     "url"  : "https://github.com/Autarc/tis.git"
                    },
-   "bin"         : { "tis" : "./bin/tis.js" },
-   "main"        : "./bin/tis.js",
-   "version"      : "0.1.0",
-   "engines"      : { "node": "0.6.0" }
+   "bin"         : { "tis" : "./bin/app.js" },
+   "main"        : "./bin/app.js",
+   "version"     : "0.3.0",
+   "engines"     : { "node": ">=0.6.0" }
 }
+
